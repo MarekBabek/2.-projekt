@@ -52,7 +52,7 @@ while not winner:
                 # Horizontální vítěz (1. řada)
                 if the_field[0] == the_field[1] == the_field[2] != ' ':
                     fncts.blank_space()
-                    print_playing_field(the_field)
+                    fncts.print_playing_field(the_field)
                     print(f'The winner is {player}')
                     break
                 # Horizontální vítěz (2. řada)
